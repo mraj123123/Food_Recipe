@@ -1,0 +1,105 @@
+.Healthy {
+  background-image: url("https://i.pinimg.com/474x/fb/cd/15/fbcd151220a22a52f477463f36a36c00.jpg");
+}
+.App {
+  min-height: 100vh;
+  background: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form {
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  font-size: 18px;
+  width: 50%;
+  border-radius: 30px;
+  border-color: rgb(241, 237, 237);
+  padding: 10px;
+  margin: 10px;
+}
+
+.search-button {
+  box-shadow: 0 5px 20px rgb(156, 155, 155);
+  font-size: 18px;
+  background: #26ad5f;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipes {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+img {
+  border-radius: 50%;
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+  .search-bar {
+    width: 50%;
+  }
+  .recipes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1300px) {
+  img {
+    width: 60%;
+  }
+}
+
+.healthLabels {
+  list-style: none;
+  margin: 10px;
+}
+
+.healthItems {
+  display: inline-block;
+  background: #26ad5f;
+  color: white;
+  border-radius: 30px;
+  font-size: 18px;
+  margin: 2px 5px;
+  padding: 8px;
+}
+
+.subheadline {
+  background: white;
+  text-align: center;
+}
+
+h2,
+h3 {
+  display: inline;
+  margin: 5px;
+}
+
+h3 {
+  color: #808080;
+}
+
+.box {
+  text-align: center;
+}
